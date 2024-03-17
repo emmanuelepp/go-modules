@@ -9,8 +9,8 @@ func main() {
 
 	var tools toolset.Tools
 
-	s := tools.RandomString(10)
+	s := tools.RandomPassword(16)
 
-	fmt.Println("Ramdon string", s)
+	fmt.Println("Random Password: ", s)
 
 }
