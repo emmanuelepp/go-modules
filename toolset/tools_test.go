@@ -15,6 +15,6 @@ func TestTools_RandomStringRandomness(t *testing.T) {
 	s1 := testTools.RandomPassword(10)
 	s2 := testTools.RandomPassword(10)
 	if s1 == s2 {
-		t.Error("RandomString returned the same string twice")
+		t.Error("RandomPassword returned the same password twice")
 	}
 }
